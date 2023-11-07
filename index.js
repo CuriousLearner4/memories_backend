@@ -16,7 +16,7 @@ app.use("/posts", postRoutes);
 app.use("/users", userRoutes);
 
 const PORT = process.env.PORT || 5000;
-const CONNECTION_URL="mongodb+srv://pavithra:1pavithra@cluster0.vqzupdv.mongodb.net/?retryWrites=true&w=majority";
+const CONNECTION_URL="mongodb+srv://harsha:Test123@cluster0.srg2hn4.mongodb.net/?retryWrites=true&w=majority";
 mongoose
   .connect(CONNECTION_URL)
   .then(() =>
